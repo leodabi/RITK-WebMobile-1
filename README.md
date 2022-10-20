@@ -1,46 +1,53 @@
-# Hugo template for Netlify CMS with Netlify Identity
+# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind)
 
-This is a small business template built with [Hugo](https://gohugo.io) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital).
+[Ghostwind Template](https://www.tailwindtoolbox.com/templates/ghostwind) is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
 
-## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+[![Ghostwind Home Page](https://www.tailwindtoolbox.com/templates/ghostwind-home.png)](https://tailwindtoolbox.github.io/Ghostwind/index.html)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+[![Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind.png)](https://tailwindtoolbox.github.io/Ghostwind/post.html)  
 
-This will setup everything needed for running the CMS:
+Click here to [preview the homepage](https://www.tailwindtoolbox.com/templates/ghostwind-home)
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+Click here to [preview the blog post](https://www.tailwindtoolbox.com/templates/ghostwind) | [Vue version](https://tailwindtoolbox.github.io/Ghostwind/post_vue.html)  
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
+Looking for a dark mode version? Check it out here - https://github.com/chiptu/darkGhostwind
+[![image](https://user-images.githubusercontent.com/43570497/130224254-d074a5bb-c2fd-44d0-a3ce-52df29e89109.png)](https://github.com/chiptu/darkGhostwind)
 
-Now you're all set, and you can start editing content!
+## Getting Started
 
-## Local Development
+Choose one of the following options to get started:
+* [Download the latest release](https://github.com/tailwindtoolbox/Ghostwind/archive/master.zip)
+* Clone the repo: `git clone https://github.com/tailwindtoolbox/Ghostwind.git`
+* Fork the repo
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+## Using the Template
 
-Then start the development server with `yarn start` or `npm start`.
+The template is just a HTML file using a full CDN hosted Tailwind CSS file.
 
-## Layouts
+To get the best out of Tailwind CSS, you need to really start customising it.
+Take a look at our [setup guide](https://www.tailwindtoolbox.com/setup) to start tweaking!
 
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
+## Bugs and Issues
 
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/tailwindtoolbox/ghostwind/issues/new) here on GitHub.
 
-## CSS
+## Creator
 
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
+[Tailwind Toolbox](https://www.tailwindtoolbox.com/) was created by and is maintained by **[Amrit Nagi](https://amritnagi.info/)**, Co-owner of [Astrava.Solutions](https://astrava.solutions).
 
-## SVG
+* https://twitter.com/tailwindtoolbox
+* https://twitter.com/amritnagi
+* https://github.com/tailwindtoolbox
 
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+Tailwind Toolbox is based on the [Tailwind CSS](https://www.tailwindcss.com) framework created by [Adam Wathan](https://twitter.com/adamwathan), [Jonathan Reinink](https://twitter.com/reinink), [David Hemphill](https://twitter.com/davidhemphill) and [Steve Schoger](https://twitter.com/steveschoger)
 
-```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
-```
+## Contributors
+
+Thanks for all the tips and PR's and Vue version
+* [@diomed](https://github.com/diomed)
+
+
+## Copyright and License
+
+Copyright 2018-2019 Astrava.Solutions Ltd. Code released under the MIT license.
